@@ -20,10 +20,16 @@ export function Home() {
     }
 
     function handleParticipantRemove(name: string) {
+
+        // console.log(participants.filter(participant => participant !== name))
+
+
         Alert.alert("Remover", `Remover o participante ${name}?`, [
             {
                 text: 'Sim',
-                onPress:() => Alert.alert("Deletado")
+                onPress:() => setParticipants(prevState => participants.filter(participant => participant !== name))
+
+
             },
             {
                 text: 'Não',
