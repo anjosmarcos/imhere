@@ -39,6 +39,7 @@ export function Home() {
         ])
     }
 
+  
     return (
         <View style={styles.container}>
             <Text key="1" style={styles.eventName}>
@@ -53,7 +54,7 @@ export function Home() {
                     style={styles.input}
                     placeholder="Digite o nome do participante"
                     placeholderTextColor={'#6B6B6B'}
-                    onChangeText={setParticipantsNames} // setParticipants names from input
+                    onChangeText={setParticipants} // setParticipants names from input
                     value={participantsNames} // setParticipants names from input
                 />
 
