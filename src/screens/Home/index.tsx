@@ -54,7 +54,7 @@ export function Home() {
                     style={styles.input}
                     placeholder="Digite o nome do participante"
                     placeholderTextColor={'#6B6B6B'}
-                    onChangeText={setParticipants} // setParticipants names from input
+                    onChangeText={text => setParticipantsNames(text)} // setParticipants names from input
                     value={participantsNames} // setParticipants names from input
                 />
 
