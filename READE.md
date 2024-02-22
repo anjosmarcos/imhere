@@ -1,5 +1,5 @@
 ![Ignite Feed](assets/cover.png)
-# Projeto: Ignite List de Presença
+# Projeto: Ignite Lista de Presença
 
 Neste desafio, você vai desenvolver uma aplicação de controle de **presença em eventos.**
 
